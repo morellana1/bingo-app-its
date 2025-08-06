@@ -177,6 +177,11 @@ main section.controls button {
     border: none;
 }
 
+main section.controls button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
 
 
 footer {
